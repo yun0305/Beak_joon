@@ -1,0 +1,2 @@
+module Baek_joon {
+}
