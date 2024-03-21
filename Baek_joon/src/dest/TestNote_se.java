@@ -48,19 +48,16 @@ public class TestNote_se {
 
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringTokenizer st = new StringTokenizer(br.readLine()," ");
+		int a = 3;
 		
-		int h = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
-		
-//		if(m-45<0) {
-//			if(h){
-//				
-//			}
-//		}
-		
+		if(a%5==0) {
+			System.out.println(a);
+			System.out.println("나누어 떨어짐");
+		}
+		else {
+			System.out.println(a);
+			System.out.println("나누어 떨어지지 않음");
+		}
 		
 		
 		
